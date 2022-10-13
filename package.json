@@ -1,0 +1,18 @@
+{
+  "name": "ts-distinct",
+  "version": "1.0.0",
+  "description": "distinct function for common use",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "github:indece-official/ts-distinct",
+  "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build"
+  },
+  "files": ["lib/**/*"],
+  "author": "indece UG (haftungsbeschränkt)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
